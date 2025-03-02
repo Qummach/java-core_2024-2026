@@ -15,9 +15,8 @@ public class Main {
         int panelsWidth = scanner.nextInt();
         scanner.close();
 
-        if ((panelsNumber>=1 & panelsNumber<=100) & (panelsHeight>=1 & panelsHeight <=100)
-                & (panelsWidth>=1 & panelsWidth<=100))
-        {
+        if ((panelsNumber >= 1 & panelsNumber <= 100) & (panelsHeight >= 1 & panelsHeight <= 100)
+                & (panelsWidth >= 1 & panelsWidth <= 100)) {
             int amountThorium = ((panelsHeight * panelsWidth) * 2) * panelsNumber;
             System.out.println(amountThorium);
         } else {

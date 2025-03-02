@@ -21,7 +21,7 @@ public class Main {
 
         for (int i = 0; i < numberOfCandidate; i++) {
             double candidateVotePercentage = (votes[i] * 100.0) / numberOfVoters;
-            System.out.printf("Процент голосов за " + (i+1) + " кандидата = " + "%.2f%%\n", candidateVotePercentage);
+            System.out.printf("Процент голосов за " + (i + 1) + " кандидата = " + "%.2f%%\n", candidateVotePercentage);
         }
     }
 }
